@@ -72,6 +72,34 @@ header nav a.activo {
     color:#fff;
 }
 
+/* icono de menú */
+#icon-menu{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    padding: 10px;
+    font-size: 20px;
+    background:  rgb(194, 224, 22);
+    border-radius: 100%;
+    color: #787878;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 20;
+}
+
+#icon-menu:hover{
+    opacity: 0.8;
+}
+
+
+
+
+
+
 /* BACKGROUND PRINCIPAL */  
 
 .background-principal {
@@ -184,6 +212,7 @@ header nav a.activo {
     z-index: 20 
 }
 
+
 /* FOOTER RESPONSIVE */
 @media screen and (max-width:800px){
     
@@ -194,7 +223,6 @@ header nav a.activo {
     grid-gap: 30px;
     padding: 35px 0px ;
 }
-   
 }
 
 /* position: fixed;
