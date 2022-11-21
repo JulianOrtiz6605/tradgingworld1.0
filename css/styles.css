@@ -134,6 +134,8 @@ header nav a.activo {
 
 .pie-pagina .grupo-1 .box figure img {
     width: 100px;
+    position: relative;
+    z-index:2;
 }
 
 .pie-pagina .grupo-1 .box h2 {
